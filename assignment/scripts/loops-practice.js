@@ -29,6 +29,10 @@ for (let i=3; i<6; i++) {
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for (let i=2; i<11; i++) {
   console.log(i)
+let evenNumbers = [2, 4, 6, 8, 10]
+  console.log(evenNumbers)
+
+
 }
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
@@ -39,9 +43,11 @@ console.log('STRETCH: countdown from 5 to 0');
 console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
+for (variable of iterable) {
+  // code block to be executed
+}
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
-
 
 // 3. While loops  
 console.log('---- 3. While loop ----');
