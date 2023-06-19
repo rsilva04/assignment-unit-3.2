@@ -29,7 +29,7 @@ for (let i=3; i<6; i++) {
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
 for (let i = 2; i < 11; i++){
-    if (i % 2 === 0) {
+    if (i % 2 === 0) 
       console.log(i);
 }
 
