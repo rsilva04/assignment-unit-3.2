@@ -41,12 +41,15 @@ console.log('STRETCH: countdown from 5 to 0');
 console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
-for (variable of iterable) {
-  // code block to be executed
-}
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
 
+const someStars= ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb'];
+console.log(someStars);
+
+for (const element of someStars) {
+  console.log(element);
+}
 // 3. While loops  
 console.log('---- 3. While loop ----');
 
