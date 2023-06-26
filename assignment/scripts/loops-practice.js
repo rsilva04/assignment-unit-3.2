@@ -48,13 +48,15 @@ for (let i=0; i<stars.length; i++){
   console.log(stars[i]);
 }
 
+
+
 // 3. While loops  
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
 let i=0
-while (i>stars.length) {
+while (i<stars.length) {
   console.log(stars [i]);
   i++;
 }
